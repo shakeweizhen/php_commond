@@ -12,11 +12,7 @@ class AES{
     private $secrectKey;
 
     public function __construct(){
-        if ($this->dbaeskey) {
           $this->secrectKey=$this->dbaeskey;
-        }else{
-          $this->secrectKey = 'alefxhgSDYIOktyqwr';
-        }
     }
 
     /**
